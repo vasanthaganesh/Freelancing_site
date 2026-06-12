@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ── Slate + Gold Theme ─────────────────────────────────── */
+    --background: #0a0a0f;
+    --foreground: #e8e6df;
+
+    --card: #1c2030;
+    --card-foreground: #e8e6df;
+
+    --popover: #1c2030;
+    --popover-foreground: #e8e6df;
+
+    --primary: #5c4dff;
+    --primary-foreground: #0f1117;
+
+    --secondary: #252a3a;
+    --secondary-foreground: #b0aaa0;
+
+    --muted: #1a1f2e;
+    --muted-foreground: #9ba3bf;
+
+    --accent: #252a3a;
+    --accent-foreground: #5c4dff;
+
+    --destructive: #e7000b;
+    --destructive-foreground: #ffffff;
+
+    --border: #2a3045;
+    --input: #252a3a;
+    --ring: #5c4dff;
+    --radius: 0.625rem;
+
+    --chart-1: #5c4dff;
+    --chart-2: #7a6bff;
+    --chart-3: #3d33aa;
+    --chart-4: #3a81f6;
+    --chart-5: #2563ef;
+
+    --sidebar: #0d1020;
+    --sidebar-foreground: #e8e6df;
+    --sidebar-primary: #5c4dff;
+    --sidebar-primary-foreground: #0f1117;
+    --sidebar-accent: #1c2030;
+    --sidebar-accent-foreground: #5c4dff;
+    --sidebar-border: #2a3045;
+    --sidebar-ring: #5c4dff;
+
+    --spacing: 0.25rem;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    --font-display: 'Space Grotesk', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+}
+
+@theme inline {
+  --color-card: var(--card);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --color-radius: var(--radius);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-popover: var(--popover);
+  --color-primary: var(--primary);
+  --color-sidebar: var(--sidebar);
+  --color-spacing: var(--spacing);
+  --color-font-mono: var(--font-mono);
+  --color-font-sans: var(--font-sans);
+  --color-secondary: var(--secondary);
+  --color-background: var(--background);
+  --color-font-serif: var(--font-serif);
+  --color-foreground: var(--foreground);
+  --color-destructive: var(--destructive);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-card-foreground: var(--card-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background-color: #050510;
+  }
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.02;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .glow-blue {
+    box-shadow: 0 0 20px rgba(92, 77, 255, 0.15), 0 0 40px rgba(92, 77, 255, 0.05);
+  }
+  .glow-blue-hover:hover {
+    box-shadow: 0 0 25px rgba(92, 77, 255, 0.25), 0 0 50px rgba(92, 77, 255, 0.1);
+  }
+  .gradient-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(42, 48, 69, 0.8) 30%, rgba(42, 48, 69, 0.8) 70%, transparent);
+  }
+  .font-display {
+    font-family: 'Space Grotesk', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  }
+}
+

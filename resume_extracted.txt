@@ -1,0 +1,71 @@
+VASANTHAGANESH R
+Full-Stack Software Developer  ·  Java · Spring Boot · React · React Native
+📞 +91 8220499437    ✉ vasanthaganeshraja@gmail.com
+🔗 linkedin.com/in/vasanthaganesh-raja-085124231    📍 Puducherry, India
+🌐 vasanthaganesh-portfolio.vercel.app    📱 t.me/VasanthaganeshRaja
+PROFESSIONAL SUMMARY
+Full-Stack Software Developer with 2+ years of professional experience at Virtusa, building enterprise-grade Java Spring Boot APIs and React frontends for the Citi banking platform. Experienced in delivering complete web and mobile products independently — from client requirement to deployment. Strong grasp of OOP, REST architecture, and cross-platform mobile development. Currently seeking a product engineering role where clean code and product thinking combine.
+TECHNICAL SKILLS
+Languages
+Java · Python · TypeScript · C
+Frontend
+React · React Native · Flutter · TypeScript
+Backend
+Spring Boot · Node.js · REST APIs · Java EE
+Databases
+MySQL · PostgreSQL · Hibernate / JPA
+Dev Tools
+Git · IntelliJ IDEA · VS Code · Android Studio
+Creative
+Blender · Unity · Unreal · Adobe Suite · Figma
+WORK EXPERIENCE
+Freelance Full-Stack Developer
+Self-Employed
+Oct 2025 – Present
+Puducherry, India (Remote)
+Designed and delivered a full SaaS QC & Report Management application for a precision tools manufacturing company using React Native — features include real-time inspection logs, defect tracking, and automated PDF report generation.
+Built a production B2B company website in React, optimized for performance, SEO, and mobile responsiveness — deployed for active B2B client use.
+Developed a community-facing Android app (Daily Vegetable Price Tracker) with live market price data for local users.
+Managed full project lifecycle independently: client requirements, architecture decisions, development, testing, and deployment.
+Associate Engineer — Full Stack Java Developer
+Virtusa (Client: Citi)
+Aug 2023 – Sep 2025
+Puducherry, India
+Developed and maintained RESTful APIs using Java Spring Boot for Citi's enterprise banking platform, ensuring high availability and strict compliance standards.
+Built responsive React frontends integrated with Spring Boot microservices, delivering seamless user experiences across banking modules.
+Participated in Agile sprints — daily standups, sprint planning, code reviews, and retrospectives in a cross-functional team environment.
+Gained hands-on experience in the BFSI (Banking, Financial Services & Insurance) domain with exposure to enterprise-scale Java systems.
+Internships
+VEI Technology  ·  Askan Technology
+2022
+Puducherry, India
+VEI Technology: Completed IoT internship — built hardware-to-cloud sensor data pipeline and submitted project report.
+Askan Technology: In-plant training in Flutter cross-platform mobile development.
+KEY PROJECTS
+Precision Tools QC & Report Manager  ·  React Native · Mobile · Manufacturing SaaS
+Full quality-check and report management app for a precision tools manufacturer — real-time inspection logs, defect tracking, and automated PDF report generation built for the shop floor.
+Appverse Application  ·  Android · Java · Firebase
+Android application enabling college students to interact with professors — assignment submissions, announcements, and real-time notifications.
+AudioBook Application  ·  Android · Accessibility
+Accessibility-focused Android app designed for learning-disabled students and second-language learners — text-to-speech, adjustable playback, and offline support.
+Abstraction Based Text Summarization  ·  Python · NLP · Web App
+Web application for investigation officers to summarize large volumes of articles using NLP-based abstractive summarization — reduces reading time significantly.
+EDUCATION
+B.Tech — Information Technology
+Manakula Vinayagar Institute of Technology, Puducherry
+CGPA: 8.34
+Graduated 2023
+CERTIFICATIONS
+Oracle Certified Associate, Java SE 8 Programmer
+Talent-Next Java Full Stack Development Course (May – Oct 2022)
+JavaScript Essentials 1 — Online Certification
+Linux Training — Spoken Tutorial, IIT Bombay
+ACHIEVEMENTS & AWARDS
+🥇 1st Prize — Paper Presentation, Christ College of Engineering Technology
+🥇 1st Prize — Blind Coding Competition, Pondicherry Technological University
+🥉 3rd Prize — AI-HACK Project Development Competition, MVIT
+🥉 3rd Prize — Project Expo (SCIMIT-23), MVIT
+Participant — Smart India Hackathon 2022
+Participant — Virtusa Jatayu 2021 & Virtusa Student Ambassador Program
+Languages Spoken:  English, Tamil
+Available:  Immediately · Open to Relocation
