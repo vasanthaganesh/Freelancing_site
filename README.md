@@ -1,16 +1,57 @@
-# React + Vite
+# Vasanthaganesh's Freelancing Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, dynamic portfolio and freelancing services website designed to showcase skills, professional experience, and services offered. Built with modern web technologies focusing on rich aesthetics, smooth interactions, and a premium user experience.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Interactive Hero Section:** Features custom WebGL shader animations (`Three.js`) for a stunning visual first impression.
+- **Dynamic Layouts:** Smooth micro-interactions and scroll animations powered by `Framer Motion`.
+- **Services & Offerings:** Clean and clear presentation of freelancing services.
+- **Proof of Work / Results:** Interactive card stacks demonstrating past project results and success metrics.
+- **Responsive Design:** Fully responsive layout styled beautifully with `Tailwind CSS`.
+- **Modern Tech Stack:** Fast, modern, and optimized build leveraging `Vite` and `React`.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **WebGL/Shaders:** [Three.js](https://threejs.org/)
+- **Icons:** [Lucide React](https://lucide.dev/)
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vasanthaganesh/Freelancing_site.git
+   cd Freelancing_site
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173` to view the site.
+
+## 📦 Build for Production
+
+To create a production-ready build, run:
+```bash
+npm run build
+```
+The optimized assets will be generated in the `dist` directory.
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
